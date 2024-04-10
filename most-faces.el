@@ -9,7 +9,7 @@
 ;; Maintainer:              Mekeor Melire <mekeor@posteo.de>
 ;; Package-Requires:        ((emacs "1.0"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
-;; Version:                 0.0.2
+;; Version:                 0.0.3
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -52,7 +52,8 @@
 ;;; Code:
 
 (defconst most-faces-as-faces
-  '( a-defface
+  '( default
+     a-defface
      abbrev-table-name
      ac-candidate-face
      ac-candidate-mouse-face
@@ -664,7 +665,6 @@
      debbugs-gnu-title
      debugger-not-running
      debugger-running
-     default
      deft-filter-string-error-face
      deft-filter-string-face
      deft-header-face
@@ -7630,7 +7630,9 @@
      ztreep-leaf-face
      ztreep-node-count-children-face
      ztreep-node-face)
-  "A list of most faces defined as faces.")
+  "A list of most faces defined as faces.
+
+The first element is `default'.")
 
 (defconst most-faces-as-variables
   '( gnus-face-0
