@@ -38,7 +38,7 @@
 ;; faces, e.g. via `defface'. For example, `foo' might be a member of
 ;; it because it might have been defined as follows:
 ;;
-;;   (defface foo '(t :foreground "#123456") "Some docstring.")
+;;   (defface foo '((t :foreground "#123456")) "Some docstring.")
 
 ;; `most-faces-as-variables' is a list of symbols that are defined as
 ;; variables with a value that is a symbol that is defined as a face.
