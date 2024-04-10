@@ -29,15 +29,29 @@
 
 ;;; Commentary:
 
-;; `most-faces' is a package that provides an equally named variable
-;; which is a list of most faces (as symbols) available in GNU Emacs
-;; core as well as packages from GNU Elpa, Nongnu Elpa and Melpa.
+;; `most-faces' is a package that provides a list of most faces (as
+;; symbols) available in GNU Emacs core as well as packages from GNU
+;; Elpa, Nongnu Elpa and Melpa. In fact, `most-faces' provides two
+;; variables:
+
+;; `most-faces-as-faces' is a list of symbols that are defined as
+;; faces, e.g. via `defface'. For example, `foo' might be a member of
+;; it because it might have been defined as follows:
+;;
+;;   (defface foo '(t :foreground "#123456") "Some docstring.")
+
+;; `most-faces-as-variables' is a list of symbols that are defined as
+;; variables with a value that is a symbol that is defined as a face.
+;; For example, `bar' might be a member of it because it might be
+;; defined as follows:
+;;
+;;   (defvar bar 'foo)
 
 ;; Please contribute missing faces!
 
 ;;; Code:
 
-(defconst most-faces
+(defconst most-faces-as-faces
   '( a-defface
      abbrev-table-name
      ac-candidate-face
@@ -7616,7 +7630,24 @@
      ztreep-leaf-face
      ztreep-node-count-children-face
      ztreep-node-face)
-  "A list of most faces available in Emacs and its packages.")
+  "A list of most faces defined as faces.")
+
+(defconst most-faces-as-variables
+  '( gnus-face-0
+     gnus-face-1
+     gnus-face-2
+     gnus-face-3
+     gnus-face-4
+     goto-address-url-face
+     grep-context-face
+     grep-error-face
+     grep-hit-face
+     grep-match-face
+     ibuffer-deletion-face
+     ibuffer-filter-group-name-face
+     ibuffer-marked-face
+     ibuffer-title-face)
+  "A list of most faces defined as variables.")
 
 (provide 'most-faces)
 
