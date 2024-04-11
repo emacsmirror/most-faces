@@ -9,7 +9,7 @@
 ;; Maintainer:              Mekeor Melire <mekeor@posteo.de>
 ;; Package-Requires:        ((emacs "1.0"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
-;; Version:                 0.0.3
+;; Version:                 0.0.4
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -439,6 +439,8 @@
      company-preview
      company-preview-common
      company-preview-search
+     company-scrollbar-bg
+     company-scrollbar-fg
      company-template-field
      company-tooltip
      company-tooltip-annotation
@@ -1181,6 +1183,9 @@
      elixir-ts-attribute
      elixir-ts-comment-doc-attribute
      elixir-ts-comment-doc-identifier
+     elixir-ts-font-comment-doc-attribute-face
+     elixir-ts-font-comment-doc-identifier-face
+     elixir-ts-font-sigil-name-face
      elixir-ts-keyword-key
      elixir-ts-sigil-name
      elpher-binary
@@ -1598,6 +1603,7 @@
      forge-topic-slug-saved
      forge-topic-slug-unplanned
      forge-topic-slug-unread
+     form-feed-line
      frimacs-boot-keyword
      frimacs-buffer-menu-group-heading
      frimacs-category-name
@@ -1899,6 +1905,8 @@
      helm-buffer-size
      helm-candidate-number
      helm-candidate-number-suspended
+     helm-comint-prompts-buffer-name
+     helm-comint-prompts-promptidx
      helm-command-active-mode
      helm-completion-invalid
      helm-completions-annotations
@@ -2032,6 +2040,9 @@
      idlwave-help-link
      idlwave-shell-bp
      idlwave-shell-disabled-bp
+     idlwave-shell-electric-stop-line
+     idlwave-shell-pending-electric-stop
+     idlwave-shell-pending-stop
      ido-first-match
      ido-incomplete-regexp
      ido-indicator
@@ -6736,7 +6747,9 @@
      tooltip
      trailing-whitespace
      transient-active-infix
+     transient-amaranth
      transient-argument
+     transient-blue
      transient-delimiter
      transient-disabled-suffix
      transient-enabled-suffix
@@ -6752,8 +6765,13 @@
      transient-key-stay
      transient-mismatched-key
      transient-nonstandard-key
+     transient-pink
      transient-posframe
      transient-posframe-border
+     transient-purple
+     transient-red
+     transient-separator
+     transient-teal
      transient-unreachable
      transient-unreachable-key
      transient-value
