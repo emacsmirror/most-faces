@@ -20,22 +20,22 @@
 
 ;; This program is distributed in the hope that it will be useful, but
 ;; WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;; General Public License for more details.
 
 ;; You should have received a copy of the GNU General Public License
-;; along with this program. If not, see
+;; along with this program.  If not, see
 ;; <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 
 ;; `most-faces' is a package that provides a list of most faces (as
 ;; symbols) available in GNU Emacs core as well as packages from GNU
-;; Elpa, Nongnu Elpa and Melpa. In fact, `most-faces' provides two
+;; Elpa, Nongnu Elpa and Melpa.  In fact, `most-faces' provides two
 ;; variables:
 
 ;; `most-faces-as-faces' is a list of symbols that are defined as
-;; faces, e.g. via `defface'. For example, `foo' might be a member of
+;; faces, e.g. via `defface'.  For example, `foo' might be a member of
 ;; it because it might have been defined as follows:
 ;;
 ;;   (defface foo '((t :foreground "#123456")) "Some docstring.")
