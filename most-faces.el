@@ -7,7 +7,7 @@
 ;; Homepage:                https://codeberg.org/mekeor/emacs-most-faces
 ;; Keywords:                faces
 ;; Maintainer:              Mekeor Melire <mekeor@posteo.de>
-;; Package-Requires:        ((emacs "1.0"))
+;; Package-Requires:        ((emacs "24"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 ;; Version:                 0.0.4
 
