@@ -4,7 +4,7 @@
 
 ;; Author:                  Mekeor Melire <mekeor@posteo.de>
 ;; Created:                 2024
-;; Homepage:                https://codeberg.org/mekeor/emacs-most-faces
+;; Homepage:                https://codeberg.org/mekeor/most-faces
 ;; Keywords:                faces
 ;; Maintainer:              Mekeor Melire <mekeor@posteo.de>
 ;; Package-Requires:        ((emacs "24"))
