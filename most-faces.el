@@ -2591,6 +2591,9 @@
      lean-message-boxes-content-face
      lean-server-task-face
      lean-server-task-fringe-face
+     lean4-fringe-face
+     lean4-fringe-fringe-fatal-error-face
+     lean4-fringe-fringe-processing-face
      learn-ocaml-group-title-face
      learn-ocaml-header-hint-face
      ledger-font-account-directive-face
