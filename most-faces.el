@@ -313,6 +313,8 @@
      biblio-highlight-extend-face
      biblio-results-header-face
      blink-matching-paren-offscreen
+     bluetooth-info-attribute
+     bluetooth-info-heading
      bold
      bold-italic
      bookmark-face
